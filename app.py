@@ -6,4 +6,4 @@ def hello_world():
     name = request.args.get('name')
     message = request.args.get('message')
 
-    return name + ", " + message
+    return "Hello " + name + "!\n" + message + "!"
